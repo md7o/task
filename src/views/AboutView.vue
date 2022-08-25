@@ -1,5 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <LoginApp />
   </div>
 </template>
+
+<script>
+import LoginApp from "@/components/LoginApp.vue";
+
+export default {
+  name: "AboutView",
+  components: {
+    LoginApp,
+  },
+};
+</script>
+<style></style>
